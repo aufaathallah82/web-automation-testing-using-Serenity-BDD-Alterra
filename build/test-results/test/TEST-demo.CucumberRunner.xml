@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demo.CucumberRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-RDQV5OE" time="0.0">
+  <properties/>
+  <system-out><![CDATA[  ?[32mAnd ?[0m?[32muser input ?[0m?[32m?[1m"standard_user"?[0m?[32m and ?[0m?[32m?[1m"secret_sauce"?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32muser click login button?[0m                       ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
+  ?[32mThen ?[0m?[32muser success login?[0m                           ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
+  ?[32mAnd ?[0m?[32muser input ?[0m?[32m?[1m"locked_out_user"?[0m?[32m and ?[0m?[32m?[1m"secret_sauce"?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
+  ?[31mThen ?[0m?[31muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Products')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RDQV5OE', ip: '192.168.100.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ARIEFR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6dc117bec1fbd9b84b6cc4367c02f9f9
+*** Element info: {Using=xpath, value=//span[contains(text(),'Products')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at demo.pages.base.BasePageObject.isPresent(BasePageObject.java:21)
+	at demo.pages.base.page_object.LoginPages.isSuccessLogin(LoginPages.java:25)
+	at demo.steps_definition.LoginStep.isSuccessLogin(LoginStep.java:28)
+	at âœ½.user success login(file:///C:/Arief/Selenium%20Java/web-automation-selenium-java/src/test/resources/features/login.feature:8)
+?[0m
+
+    Embedding Failed Screenshot [image/png 114749 bytes]
+
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>
