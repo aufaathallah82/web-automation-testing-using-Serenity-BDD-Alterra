@@ -4,5 +4,7 @@ demo/webdriver/WebdriverInstance.java
  demo.webdriver.WebdriverInstance
 demo/pages/base/page_object/LoginPages.java
  demo.pages.base.page_object.LoginPages
+demo/pages/base/page_object/ProductSortContainer.java
+ demo.pages.base.page_object.ProductSortContainer
 demo/pages/base/page_object/AddToCartPages.java
  demo.pages.base.page_object.AddToCartPages

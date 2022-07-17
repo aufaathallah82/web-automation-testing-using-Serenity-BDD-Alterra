@@ -15,3 +15,4 @@ public class AddToCartPages extends BasePageObject {
         return isPresent(element);
     }
 }
+
