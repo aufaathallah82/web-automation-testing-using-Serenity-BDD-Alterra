@@ -9,4 +9,4 @@ Feature: Remove Sauce Lab Backpack
     Given user click add to cart
     Then user can see the shopping cart added
     Given user click the shopping cart
-    Then user can see page wrapper
+    Then user can see cart list

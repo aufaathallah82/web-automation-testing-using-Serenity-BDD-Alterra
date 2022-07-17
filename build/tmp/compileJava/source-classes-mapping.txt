@@ -8,3 +8,7 @@ demo/pages/base/page_object/ProductSortContainer.java
  demo.pages.base.page_object.ProductSortContainer
 demo/pages/base/page_object/AddToCartPages.java
  demo.pages.base.page_object.AddToCartPages
+demo/pages/base/page_object/RemoveSauceLabBackpackBtn.java
+ demo.pages.base.page_object.RemoveSauceLabBackpackBtn
+demo/pages/base/page_object/ContinueShoppingBtn.java
+ demo.pages.base.page_object.ContinueShoppingBtn

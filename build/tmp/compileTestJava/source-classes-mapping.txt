@@ -8,3 +8,7 @@ demo/steps_definition/LoginStep.java
  demo.steps_definition.LoginStep
 demo/CucumberRunner.java
  demo.CucumberRunner
+demo/steps_definition/ContinueShoppingStep.java
+ demo.steps_definition.ContinueShoppingStep
+demo/steps_definition/RemoveSauceLabBackpackStep.java
+ demo.steps_definition.RemoveSauceLabBackpackStep
