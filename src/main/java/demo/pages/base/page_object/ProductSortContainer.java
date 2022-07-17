@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class ProductSortContainer extends BasePageObject{
 
     public void clickProductSortContainer() {
-        By element = By.id("product_sort_container");
+        By element = By.className("select_container");
         clickOn(element);
     }
     public boolean isSuccessProductSortContainer() {

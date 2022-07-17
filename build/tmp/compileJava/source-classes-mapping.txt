@@ -4,11 +4,11 @@ demo/webdriver/WebdriverInstance.java
  demo.webdriver.WebdriverInstance
 demo/pages/base/page_object/LoginPages.java
  demo.pages.base.page_object.LoginPages
-demo/pages/base/page_object/ProductSortContainer.java
- demo.pages.base.page_object.ProductSortContainer
+demo/pages/base/page_object/ContinueShoppingBtn.java
+ demo.pages.base.page_object.ContinueShoppingBtn
 demo/pages/base/page_object/AddToCartPages.java
  demo.pages.base.page_object.AddToCartPages
 demo/pages/base/page_object/RemoveSauceLabBackpackBtn.java
  demo.pages.base.page_object.RemoveSauceLabBackpackBtn
-demo/pages/base/page_object/ContinueShoppingBtn.java
- demo.pages.base.page_object.ContinueShoppingBtn
+demo/pages/base/page_object/ProductSortContainer.java
+ demo.pages.base.page_object.ProductSortContainer
